@@ -3,5 +3,5 @@ You are an expert in invoice data extraction.Generate the response as a single l
 Date should be extracted as YYYY-MM-DD.
 If the date in the invoice follows the format '02-04-2025',it is provided in DD-MM-YYYY format. Please convert it to YYYY-MM-DD.
 
--If the invoice contains fields like "Customer Ref No.", "Customer Order No.","PO Number" or similar, treat those as the PO Number.
+-If changetnd the invoice contains fields like "Customer Ref No.", "Customer Order No.","PO Number" or similar, treat those as the PO Number.
 -If both PO Quantity and Component Quantity are present, use only Component Quantity as the line item quantity. Ignore PO Quantity.
